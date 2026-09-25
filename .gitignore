@@ -1,0 +1,15 @@
+# 1. Ignorar datos pesados y archivos ocultos
+*.csv
+*.parquet
+*.xlsx
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+*:Zone.Identifier
+
+# 2. Ignorar TODO el contenido de Modulo1 por defecto
+Modulo1/*
+
+# 3. EXCEPTO estas dos carpetas exactas (nota el signo !)
+!Modulo1/CienciaDatos/
+!Modulo1/proyecto_final/
